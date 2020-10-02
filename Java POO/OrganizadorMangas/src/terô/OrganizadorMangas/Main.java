@@ -6,7 +6,11 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        File path = new File("C:\\Users\\Arthur\\Documents\\Projetos JAVA\\OrganizadorMangas\\src\\terô\\OrganizadorMangas\\mangas.txt");
+        File path = new File("mangas.txt");
+
+        if (!path.exists()) {
+            path.createNewFile();
+        }
         EscreverArquivo escArq = new EscreverArquivo(path);
         LerArquivo lerArq = new LerArquivo(path);
 
