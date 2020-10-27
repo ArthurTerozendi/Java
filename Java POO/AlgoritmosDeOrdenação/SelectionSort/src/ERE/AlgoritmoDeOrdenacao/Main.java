@@ -8,10 +8,10 @@ public class Main {
 	// write your code here
 
         Random rng = new Random();
-        int lista[] = new int[1000000];
+        int lista[] = new int[1000];
 
         for (int i = 0; i < lista.length; i++) {
-            lista[i] = rng.nextInt(10);
+            lista[i] = rng.nextInt(100);
         }
 
         for (int i = 0; i < lista.length - 1; i++) {
