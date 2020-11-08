@@ -8,7 +8,7 @@ public class Main {
 	// write your code here
 
         Leitura leitura = new Leitura();
-        float cotacao[] = leitura.ler();
+        float cotacao[] = leitura.lerCotacao();
 
         for (int i = 0; i < cotacao.length; i++) {
             System.out.print(cotacao[i] + " ");
@@ -32,6 +32,32 @@ public class Main {
             System.out.print(cotacao[i] + " ");
         }
 
-       System.out.println();
+        System.out.println();
+
+        String nomes[] = leitura.lerNomes();
+
+        for (int i = 0; i < nomes.length; i++) {
+            System.out.print(nomes[i] + " ");
+        }
+        System.out.println();
+        for (int i = 0; i < nomes.length - 1; i++) {
+            int menorIndex = i;
+            for (int j = i; j < nomes.length; j++) {
+                if (nomes[menorIndex].compareTo(nomes[j]) > 0) {
+                    menorIndex = j;
+                }
+            }
+            if (nomes[i].compareTo(nomes[menorIndex]) > 0){
+                String aux = nomes[i];
+                nomes[i] = nomes[menorIndex];
+                nomes[menorIndex] = aux;
+            }
+        }
+
+        for (int i = 0; i < nomes.length; i++) {
+            System.out.print(nomes[i] + " ");
+        }
+
+        System.out.println();
     }
 }

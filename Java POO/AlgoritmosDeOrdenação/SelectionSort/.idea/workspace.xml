@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,14 +39,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
+        <entry file="file://$PROJECT_DIR$/nomes-caracteres.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-1713181" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cotacaoEMBR3.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-46205" />
           </provider>
         </entry>
       </file>
@@ -63,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Ordenacao.java" />
         <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/leitura.java" />
-        <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" />
         <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" />
+        <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" />
       </list>
     </option>
   </component>
@@ -168,7 +179,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -179,7 +189,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5718608" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5718608" visible="true" weight="0.2569558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -224,20 +234,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/SelectionSort.java" />
     <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Ordenacao.java" />
-    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
+    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java">
+    <entry file="file://$PROJECT_DIR$/cotacaoEMBR3.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="-46205" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomes-caracteres.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1713181" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
