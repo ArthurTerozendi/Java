@@ -1,52 +1,37 @@
 package ERE.AlgoritmoDeOrdenacao;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Random;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
 	// write your code here
 
-        Random rng = new Random();
-        int lista[] = new int[10];
         Leitura leitura = new Leitura();
+        float cotacao[] = leitura.ler();
 
-       /** for (int i = 0; i < lista.length; i++) {
-            lista[i] = rng.nextInt(100);
+        for (int i = 0; i < cotacao.length; i++) {
+            System.out.print(cotacao[i] + " ");
         }
-
-        for (int i = 0; i < lista.length - 1; i++) {
+        System.out.println();
+        for (int i = 0; i < cotacao.length - 1; i++) {
             int menorIndex = i;
-            for (int j = i; j < lista.length; j++) {
-                if (lista[menorIndex] > lista[j]) {
+            for (int j = i; j < cotacao.length; j++) {
+                if (cotacao[menorIndex] > cotacao[j]) {
                     menorIndex = j;
                 }
             }
-            if (lista[i] > lista[menorIndex]){
-                int aux = lista[i];
-                lista[i] = lista[menorIndex];
-                lista[menorIndex] = aux;
-            }
-        }*/
-       ArrayList<Float> cotacao = leitura.ler();
-        System.out.println(cotacao);
-        for (int i = 0; i < cotacao.size(); i++) {
-            int menorIndex = i;
-            for (int j = i; j < cotacao.size(); j++) {
-                if (cotacao.get(menorIndex) > cotacao.get(j)) {
-                    menorIndex = j;
-                }
-            }
-            if (cotacao.get(i) > cotacao.get(menorIndex)){
-                float aux = cotacao.get(i);
-                cotacao.add(i, cotacao.get(menorIndex));
-                cotacao.add(menorIndex, aux);
+            if (cotacao[i] > cotacao[menorIndex]){
+                float aux = cotacao[i];
+                cotacao[i] = cotacao[menorIndex];
+                cotacao[menorIndex] = aux;
             }
         }
 
+        for (int i = 0; i < cotacao.length; i++) {
+            System.out.print(cotacao[i] + " ");
+        }
 
-       System.out.println(cotacao);
+       System.out.println();
     }
 }
