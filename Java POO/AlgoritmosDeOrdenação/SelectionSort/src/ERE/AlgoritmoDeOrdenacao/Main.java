@@ -37,7 +37,7 @@ public class Main {
         String nomes[] = leitura.lerNomes();
 
         for (int i = 0; i < nomes.length; i++) {
-            System.out.print(nomes[i] + " ");
+            System.out.println(nomes[i] + " ");
         }
         System.out.println();
         for (int i = 0; i < nomes.length - 1; i++) {
@@ -55,7 +55,7 @@ public class Main {
         }
 
         for (int i = 0; i < nomes.length; i++) {
-            System.out.print(nomes[i] + " ");
+            System.out.println(nomes[i] + " ");
         }
 
         System.out.println();
