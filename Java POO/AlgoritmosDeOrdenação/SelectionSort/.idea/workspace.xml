@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3f43380-be04-42b9-bec6-6ac7575e3e78" name="Default Changelist" comment="Começando a trabalhar com o arquivo csv">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SelectionSort_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SelectionSort_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="f3f43380-be04-42b9-bec6-6ac7575e3e78" name="Default Changelist" comment="Começando a trabalhar com o arquivo csv" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +91,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +115,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +179,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
